@@ -1,0 +1,395 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+
+body{
+	background: #FCFAFA;
+	display: flex;
+	flex-wrap: wrap;	
+	overflow-x: hidden;
+	min-height: 100vh;
+}
+
+
+
+
+/*=========================== HEADER ===========================*/
+
+
+header{
+	background: #fff;
+	display: flex;
+	box-shadow: 0 0 10px #ccc;
+	max-height: 5%;
+}
+
+
+.btnutd{
+	width: 18%;
+}
+
+
+.btnutd img{
+	width: 100%;
+	padding: 0 7px;
+}
+
+nav{
+	display: flex;
+	width: 81%;
+	justify-content: flex-end;
+}
+
+nav a{
+	text-align: center;
+	padding: 10px 30px;
+	display: flex;
+	align-items: center;
+	font-weight: 700;
+	color: #F10C0C;
+	font-size: 16px;
+
+}
+
+nav a:hover{
+	color: #000;
+}
+
+
+#btn-menu{
+	display: none;
+}
+
+header label{
+	display: none;
+	width: 30px;
+	height: 30px;
+	padding: 10px;
+
+}
+
+
+
+
+header label:hover{
+	cursor: pointer;
+	background: #EF1212;
+}
+
+header label:hover img{
+	filter: invert(1);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*========================= MAIN =================================*/
+
+
+main{
+	margin: 5% auto 2%;
+	display: flex;
+	flex-wrap: wrap;
+	background: #fff;
+	width: 80%;
+	box-shadow: 0 0 7px rgba(0,0,0, .5);
+}
+
+main h1{
+	width: 60%;
+	text-align: center;
+	padding: 20px;
+	font-size: 40px;
+	background: #EF1212;
+	color: #fff;
+	padding: 1px;
+	font-size: 30px;
+}
+
+
+.titulo{
+	background: #EF1212;
+	color: #fff;
+	padding: 1px;
+	text-align: center;
+	width: 100%;
+	margin-bottom: 5%;
+	font-size: 34px;
+}
+
+
+/*========================= RESENA --------------------------------*/
+
+main div{
+	margin: 0 auto 90px;
+	width: 95%;
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+.rese h1{
+	margin: 0 0 5%;
+}
+
+
+
+main p{
+	text-align: justify;
+	font-size: 20px;
+}
+
+
+
+
+.rese p img{
+	float: right;
+	margin: 20px;
+	width: 45%;
+	height: 40vh;
+}
+
+
+
+
+
+
+/*============================ MISION ================================*/
+
+
+
+.misi p{
+	margin: 3%;
+}
+
+
+
+/*============================ VISION ================================*/
+
+.visi p{
+	width: 50%;
+	margin: 60px 0;
+}
+
+.visi img{
+	margin: 5% 2%;
+	width: 45%;
+	height: 40vh;
+}
+
+
+
+
+/*============================ DISCIPLINAS ===========================*/
+
+.disi{
+	border-bottom: 1px solid #aaa;
+	width: 100%;
+}
+
+
+.disi h1{
+	width: 90%;
+	padding: 10px;
+}
+
+.disi div{
+	width: 20%;
+	border: 1px solid rgba(0, 20, 10, .4);
+	box-shadow: 0 0 10px rgba(1, 18, 8, .4);
+	background: #fff;
+}
+
+.disi > p{
+	margin: 5% 15%;
+	width: 70%;
+}
+
+
+
+.disi div img{
+	width: 60%;
+	margin: 10%;
+	transition: 1s;
+
+}
+
+.disi div p{
+	background: #EF1212;
+	color: #fff;
+	width: 96%;
+	text-align: center;
+	padding: 3px 20px;
+	font-weight: 700;
+	margin: 2px;
+	font-size: 1.2em;
+
+}
+
+
+.disi div:hover img{
+	transform: scale(1.1);
+	transition: 0.5s;
+}
+
+
+
+
+
+
+.infex p{
+	width: 100%;
+
+}
+
+.infex p img{
+	float: right;
+	margin: 20px;
+	width: 40%;
+	height: 40vh;
+}
+
+
+/*============================ CONTACTO ================================*/
+
+.contact{
+	box-shadow: 0 0 10px #ccc;
+	padding-bottom: 5%;
+}
+
+.contact h1{
+	margin-bottom: 5%;
+}
+
+.contact p{
+	width: 80%;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+/*============================ UBICACION ================================*/
+
+.ubicacion{
+	display: flex;
+}
+
+.ubicacion h1{
+	margin-bottom: 5%;
+}
+
+.ubicacion img{
+	width: 50%;
+	height: 40vh;
+}
+
+.ubicacion p{
+	padding: 2%;
+	width: 40%;
+}
+
+
+
+
+
+
+/*============================ FOOTER ================================*/
+
+
+footer{
+	margin-top: 2%;
+	display: flex;
+	justify-content: flex-end;
+	border: 1px solid #000;
+	background: #000;
+	color: #fff;
+	width: 100%;
+}
+
+footer ul{
+	margin: 20px 30px;
+	list-style: none;
+}
+
+footer ul li{
+	margin: 20px 0;
+	transition: 0.5s;
+}
+
+
+
+
+
+
+/*=========================== RESPONSIVE =======================*/
+
+@media (max-width: 760px) {
+
+	header{
+		justify-content: space-between;
+	}
+
+	main{
+		width: 90%;
+	}
+
+	.btnutd{
+	width: 40%;
+	padding: 7px;
+}
+	header label{
+		display: block;
+	}
+
+	header label img{
+		width: 100%;
+	}
+
+	.menu {
+		position: absolute;
+		width: 70%;
+		margin-top: 11%;
+		right: 0;
+		margin-right: -70%;
+		transition: all 0.3s;
+		display: block;
+	}
+
+
+	.menu a{
+		border-top: 1px solid #BFD8E0;
+		padding: 15px 20px;
+		background: #EF1212;
+		color: #fff;
+
+	}
+
+	#btn-menu:checked ~ .menu {
+		margin-right: 0;
+	}
+
+	.disi div{
+		width: 40%;
+	}
+
+
+}
