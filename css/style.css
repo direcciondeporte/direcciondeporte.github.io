@@ -274,11 +274,13 @@ main p{
 
 .contact h1{
 	margin-bottom: 5%;
+	padding: 0 50px;
 }
 
 .contact p{
 	width: 80%;
 	margin-bottom: 20px;
+	word-break: break-all;
 }
 
 
@@ -295,6 +297,7 @@ main p{
 
 .ubicacion h1{
 	margin-bottom: 5%;
+	padding: 0 50px;
 }
 
 .ubicacion img{
