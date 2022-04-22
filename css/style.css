@@ -25,6 +25,7 @@ header{
 	display: flex;
 	box-shadow: 0 0 10px #ccc;
 	max-height: 5%;
+	width: 100%;
 }
 
 
